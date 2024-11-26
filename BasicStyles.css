@@ -1,0 +1,33 @@
+/* Standard background color */
+body {
+    background-color: #eef6ef; /* Mint green */
+    color: #0d8359; /* Sea green for text */
+    font-family: Arial, sans-serif;
+}
+
+/* Standard heading color */
+h1, h2, h3, h4, h5, h6 {
+    color: #135344; /* Dark slate grey */
+}
+
+/* Button styles */
+button {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    background-color: #0d8359; /* Sea green */
+    color: #eef6ef; /* Mint green */
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease; /* Smooth transition for expansion */
+}
+
+button:hover {
+    width: 160px; /* Slightly expand on hover */
+    height: 55px;
+}
+
+button:active {
+    background-color: #135344; /* Dark slate grey */
+}
